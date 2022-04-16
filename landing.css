@@ -1,0 +1,205 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+#header {
+    background-color:#000;
+    display:inline-block;
+    width:100%;
+    height:auto;
+
+}
+
+#nav-bar ul {
+    
+    background-color:#000;
+    list-style:none;
+    padding:0;
+    margin:0;
+    text-align:right;
+    
+}
+#nav-bar li {
+  display: inline-block;
+   
+}
+#nav-bar a {
+    text-decoration:none;
+    color:#fff;
+    width:120px;
+    display:block;
+    padding:15px 15px;
+    font-weight:bold;
+    text-align:center;
+    
+}
+#nav-bar a:hover {
+    background:#999;
+}
+    
+}
+footer {
+    background-color:#000;
+    color:#fff;
+    padding:15px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align:center;
+    padding:25px;
+    font-weight:bolder;
+}
+p {
+    width:650px;
+    margin:0 auto;
+    text-align:justify;
+}
+h3 {
+    margin: 0 auto;
+    padding-top:15px;
+    padding-bottom:15px;
+
+}
+iframe {
+    padding: 35px 0;
+}
+#email {
+    position:flex;
+    width:500px;
+    height:30px;
+    border-radius:5px;
+}
+#footer-nav ul {
+    background-color:black;
+    list-style:none;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+
+
+
+#footer-nav li {
+    display: inline-block;
+}
+
+#footer-nav a:hover {
+    background:#999;
+} 
+footer {
+    background-color:#000;
+    color:#fff;
+    padding: 15px 0;    
+}
+
+#benefits {
+    list-style:none;
+}
+#submit {
+    width:200px;
+    height:30px;
+    background-color:#000;
+    color:#fff;
+    font-weight:bolder;
+    border-radius:5px;
+    
+}
+
+#footer-nav a {
+    text-decoration:none;
+    color:#fff;
+    width:120px;
+    display:block;
+    padding:15px 15px;
+    font-weight:bold;
+    text-align:center;
+}
+#pricing {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 220px;
+  margin: 20px 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.product > .level {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: 700;
+    font-size:1.06rem;
+  }
+  .product > h2 {
+    margin-top: 15px;
+  }
+  
+  .product > ul {
+    margin: 15px auto;
+    list-style:none;
+    
+  }
+  
+  .product > ul > li {
+    padding: 5px 0;
+    margin:0 auto;
+    
+  }
+  
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #000;
+    font-weight: 400;
+    font-size:0.99rem;
+    color:#fff;
+    width:120px;
+    height:30px;
+    border-radius:5px;
+  }
+  
+  .product > button:hover {
+    background-color: #777;
+    transition: background-color 1s;
+  }
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #000;
+    padding: 20px;
+    color:#fff;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+
+      

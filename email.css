@@ -1,0 +1,85 @@
+td {
+    border: none;
+    
+}
+body {
+    background-color:#2F80ED;
+}
+.container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    
+}
+.left  {
+    width:25%;
+    background-color:#2F80ED;
+    
+}
+.right{
+    min-width:25%;
+    background-color:#2F80ED;
+    
+}
+.center {
+    width:50%;
+    height:auto;
+    text-align:center;
+    background-color:white;
+    
+}
+.root {
+    background-color:#2F80ED;
+    height:auto;
+    text-align:center;
+    color:white;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.logo {
+    text-indent:-9999px;
+    background:url(../Images/McFarlane_Signature_Global_Solutions__3___1_-removebg-preview.png);
+    color:white;
+    height:12cm;
+    width:12cm;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.footer {
+    width:100%;
+    height:auto;
+    background-color:#2F80ED;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:white;
+}
+p {
+    text-align:left;
+    padding: 0 30px;
+    line-height:0.8rem
+}
+a {
+    text-decoration:none;
+    color:#2F80ED;
+}
+a:hover {
+    color:#1D2671;
+}
+#input {
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+    padding-bottom:30px;
+    border-radius:5px;
+}
+#content {
+    width:320px;
+    height:35px;
+    background-color:#2F80ED;
+    border: 1px solid #2F80ED;
+    border-radius:5px;
+    color:white;
+}
